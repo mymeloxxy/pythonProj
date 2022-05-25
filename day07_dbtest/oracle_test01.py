@@ -1,3 +1,4 @@
+#오라클 db와 연동을 위한 라이브러리 설치
 import cx_Oracle
 
 conn = cx_Oracle.connect('scott','tiger','localhost:1521/XE')
